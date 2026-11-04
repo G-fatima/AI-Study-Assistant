@@ -1,0 +1,9 @@
+# Secrets: never upload API keys
+.streamlit/secrets.toml
+
+# Your personal chats and logs
+study_assistant.db
+logs/
+
+# Python cache
+__pycache__/
