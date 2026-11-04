@@ -4,7 +4,7 @@ An AI-powered study assistant that helps students understand topics, ask questio
 
 Built with **Python**, **Streamlit** and the **Groq API** (large language models), with **Tavily** for live web search.
 
-**🔗 Live demo:** <!-- replace with your real app link -->
+**🔗 Live demo:** https://aaai-study-assistant-zcsaj.streamlit.app/
 
 <!-- Add screenshots: create a "screenshots" folder, put images in it, then uncomment:
 ![Chat screen](screenshots/chat.png)
@@ -131,7 +131,7 @@ The app opens in your browser at `http://localhost:8501`.
 
 The app is deployed on **Streamlit Community Cloud**:
 1. Push the code to GitHub (without `secrets.toml` and `study_assistant.db`).
-2. On [share.streamlit.io](https://share.streamlit.io), create an app from this repository with `app.py` as the main file.
+2. On https://aaai-study-assistant-zcsaj.streamlit.app/, create an app from this repository with `app.py` as the main file.
 3. In **Advanced settings → Secrets**, add:
 ```toml
 GROQ_API_KEY = "your-groq-key"
